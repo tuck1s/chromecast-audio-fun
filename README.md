@@ -5,6 +5,7 @@ Python experiments with sending live-ish audio to ChromeCast device
 ```bash
 export FLASK_APP=audioserver.py
 flask run --host=0.0.0.0 --port=8080 --debugger
+```
 
 2. Start the cast with
 ```bash
